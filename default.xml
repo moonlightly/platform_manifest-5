@@ -214,7 +214,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="refs/tags/android-4.2.1_r1.2" />
