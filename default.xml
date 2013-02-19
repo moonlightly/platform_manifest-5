@@ -222,7 +222,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="jb-mr1-release" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display-caf" remote="jakdillard" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="jakdillard" revision="jd" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="jb-mr1-release" />
@@ -230,7 +230,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" revision="jb-mr1-release" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="jb-mr1-release" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="jb-mr1-release" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="jb-mr1-release" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="jb-mr1-release" />
