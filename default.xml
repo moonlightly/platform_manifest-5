@@ -222,7 +222,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="jb-mr1-release" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="jb-mr1-dev-plus-aosp" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="jakdillard" revision="jd" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="jb-mr1-release" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="jb-mr1-release" />
