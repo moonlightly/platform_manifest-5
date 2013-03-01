@@ -320,11 +320,8 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/audience" name="platform_vendor_audience" remote="jakdillard" revision="jd" />
-  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
   <project path="vendor/jakdillard" name="platform_vendor_jakdillard" remote="jakdillard" revision="jd" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
-  <project path="vendor/widevine" name="platform_vendor_widevine" remote="jakdillard" revision="jd" />
 
 </manifest>
