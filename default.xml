@@ -32,6 +32,7 @@
       <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
       <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
       <project path="device/lge/mako" name="platform_device_lge_mako" groups="device" remote="jakdillard" revision="jd" />
+      <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
       <project path="device/sample" name="device/sample" groups="pdk" />
       <project path="device/samsung/manta" name="platform_device_samsung_manta" groups="device" remote="jakdillard" revision="jd" />
       <project path="docs/source.android.com" name="platform/docs/source.android.com" />
