@@ -1,5 +1,5 @@
-    <?xml version="1.0" encoding="UTF-8"?>
-    <manifest>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
       <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
@@ -330,4 +330,4 @@
       <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
       <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
 
-    </manifest>
+</manifest>
