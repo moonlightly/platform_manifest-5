@@ -259,7 +259,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/QuickSearchBox" name="platform_packages_apps_QuickSearchBox" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="jakdillard" revision="jd" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
