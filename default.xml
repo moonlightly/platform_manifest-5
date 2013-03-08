@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="jakdillard" revision="pabe" >
+  <project path="build" name="platform_build" remote="jakdillard" revision="jd" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -261,6 +261,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform_packages_apps_QuickSearchBox" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="jakdillard" revision="jd" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="jakdillard" revision="jd" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform_packages_apps_VoiceDialer" remote="jakdillard" revision="jd" />
