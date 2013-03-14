@@ -321,7 +321,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
-  <project path="vendor/jakdillard" name="platform_vendor_jakdillard" remote="jakdillard" revision="jd" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
 
