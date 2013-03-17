@@ -31,8 +31,6 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="jakdillard" revision="jd" groups="device" />
-  <project path="device/samsung/toroplus" name="platform_device_samsung_toroplus" remote="jakdillard" revision="jd" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="jakdillard" revision="jd" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -220,7 +218,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -234,10 +231,6 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -332,12 +325,8 @@
 
   <project path="vendor/audience" name="platform_vendor_audience" remote="jakdillard" revision="jd" />
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
-  <project path="vendor/imgtec" name="platform_vendor_imgtec" remote="jakdillard" revision="jd" />
-  <project path="vendor/invensense" name="platform_vendor_invensense" remote="jakdillard" revision="jd" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
-  <project path="vendor/nxp" name="platform_vendor_nxp" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
-  <project path="vendor/widevine" name="platform_vendor_widevine" remote="jakdillard" revision="jd" />
 
 </manifest>
