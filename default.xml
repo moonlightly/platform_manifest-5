@@ -7,7 +7,7 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <remote name="koush"
+  <remote  name="koush"
            fetch="git://github.com/koush/" /> 
 
   <default revision="refs/tags/android-4.2.2_r1"
