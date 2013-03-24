@@ -7,6 +7,9 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
+  <remote name="koush"
+           fetch="git://github.com/koush/" /> 
+
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -327,5 +330,8 @@
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
+
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
 </manifest>
