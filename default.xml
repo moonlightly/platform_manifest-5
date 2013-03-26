@@ -332,7 +332,7 @@
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
 
-  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="jd" />
-  <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="jd" />
+  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
+  <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
 
 </manifest>
