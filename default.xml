@@ -255,13 +255,12 @@
   <project path="packages/apps/Music" name="platform_packages_apps_music" remote="jakdillard" revision="jd" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/NoWallpaper" name="platform_packages_apps_NoWallpaper" remote="jakdillard" revision="jd" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Provision" name="platform_packages_apps_Provision" remote="jakdillard" revision="jd"  />
   <project path="packages/apps/QuickSearchBox" name="platform_packages_apps_QuickSearchBox" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="jakdillard" revision="jd" />
-  <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="jakdillard" revision="jd" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
@@ -288,6 +287,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
+  <project path="packages/wallpapers/NoWallpaper" name="platform_packages_wallpapers_NoWallpaper" remote="jakdillard" revision="jd" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
