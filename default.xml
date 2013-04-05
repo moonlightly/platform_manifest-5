@@ -7,6 +7,9 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
+  <remote name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />
+
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -245,7 +248,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="master" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="CyanogenMod" revision="cm-10.1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="aosp" revision="master" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -254,12 +257,12 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="CyanogenMod" revision="cm-10.1" />
   <project path="packages/apps/Music" name="platform_packages_apps_Music" remote="jakdillard" revision="jd" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="CyanogenMod" revision="cm-10.1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="master"  />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
