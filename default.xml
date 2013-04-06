@@ -31,10 +31,13 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="platform_device_lge_mako" groups="device" remote="jakdillard" revision="jd" />
-  <project path="device/lge/mako-kernel" name="platform_device_lge_mako-kernel" groups="device,mako" remote="jakdillard" revision="jd" />
+  <project path="device/jd/mako" name="platform_device_jd_mako" groups="device" remote="jakdillard" revision="jd" />
+  <project path="device/jd/mako-kernel" name="platform_device_jd_mako-kernel" groups="device,mako" remote="jakdillard" revision="jd" />
+  <project path="device/jd/manta" name="platform_device_jd_manta" remote="jakdillard" revision="jd" groups="device" />
+  <project path="device/lge/mako" name="platform/device/lge/mako" groups="device" />
+  <project path="device/lge/mako-kernel" name="platform/device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="jakdillard" revision="jd" groups="device" />
+  <project path="device/samsung/manta" name="platform/device/samsung/manta" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
