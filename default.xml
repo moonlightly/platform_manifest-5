@@ -12,7 +12,6 @@
            sync-j="4" />
 
   <project path="build" name="platform_build" remote="jakdillard" revision="jd" >
-  <project path="build/target/jd_product" name="platform_build_target_jd_product" remote="jakdillard" revision="jd" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
