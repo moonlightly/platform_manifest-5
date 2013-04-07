@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="jakdillard" revision="jd" >
+  <project path="build" name="platform_build" remote="jakdillard" revision="jd-public" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -33,10 +33,9 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/jd/common" name="platform_device_jd_common" groups="device" remote="jakdillard" revision="jd" />
-  <project path="device/jd/mako" name="platform_device_jd_mako" groups="device" remote="jakdillard" revision="jd" />
-  <project path="device/jd/mako-kernel" name="platform_device_jd_mako-kernel" groups="device,mako" remote="jakdillard" revision="jd" />
-  <project path="device/jd/manta" name="platform_device_jd_manta" remote="jakdillard" revision="jd" groups="device" />
+  <project path="device/jd/common" name="platform_device_jd_common" groups="device" remote="jakdillard" revision="jd-public" />
+  <project path="device/jd/mako" name="platform_device_jd_mako" groups="device" remote="jakdillard" revision="jd-public" />
+  <project path="device/jd/manta" name="platform_device_jd_manta" groups="device" remote="jakdillard" revision="jd-public" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" />
@@ -349,10 +348,10 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/audience" name="platform_vendor_audience" remote="jakdillard" revision="jd" />
-  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
-  <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
-  <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd" />
+  <project path="vendor/audience" name="platform_vendor_audience" remote="jakdillard" revision="jd-public" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd-public" />
+  <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd-public" />
+  <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd-public" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="jakdillard" revision="jd-public" />
 
 </manifest>
