@@ -7,7 +7,7 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="jb-mr1.1-release"
            remote="aosp"
            sync-j="4" />
 
