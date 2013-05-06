@@ -212,7 +212,7 @@
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="jakdillard" revision="jd" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="jakdillard" revision="jd" />
+  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -222,7 +222,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform_frameworks_rs" remote="jakdillard" revision="jd" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="jakdillard" revision="jd" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
