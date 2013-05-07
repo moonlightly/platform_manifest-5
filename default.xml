@@ -349,6 +349,7 @@
 
   <!--Add your vendor files here-->
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
+  <project path="vendor/jd" name="platform_vendor_jd" remote="jakdillard" revision="jd" /> 
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
 
