@@ -265,6 +265,7 @@
   <project path="packages/apps/DSPManager" name="platform_packages_apps_DSPManager" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="master" />
+  <project path="packages/apps/FileManager" name="platform_packages_apps_FileManager" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
