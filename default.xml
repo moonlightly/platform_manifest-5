@@ -7,8 +7,8 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <remote  name="evervolv"
-           fetch="git://github.com/Evervolv/" />
+  <remote name="tmobile"
+           fetch="git://github.com/tmobile" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
@@ -319,9 +319,7 @@
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
 
 <!-- Tmobile Themes -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="evervolv" revision="jellybean" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="evervolv" revision="jellybean"/>
-  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="evervolv" revision="jellybean"/>
-  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="evervolv" revision="jellybean"/>
-
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="tmobile" revision="refs/heads/master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="tmobile" revision="refs/heads/master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="tmobile" revision="refs/heads/master" />
 </manifest>
