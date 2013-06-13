@@ -7,6 +7,14 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
+  <remote name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />
+
+  <remote name="aokp"
+           fetch="https://github.com/AOKP/"
+           review="gerrit.aokp.co" />
+
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -353,5 +361,11 @@
   <project path="vendor/jd" name="platform_vendor_jd" remote="jakdillard" revision="jd" /> 
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
+
+  <!-- Theme Manager -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
 </manifest>
