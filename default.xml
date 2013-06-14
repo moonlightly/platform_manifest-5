@@ -354,4 +354,11 @@
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
 
+  <!-- Theme Manager -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="platform_vendor_tmobile_apps_ThemeChooser" remote="jakdillard" revision="jd" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="jakdillard" revision="jd" />
+  <project path="vendor/tmobile/permissions" name="platform_vendor_tmobile_permissions" remote="jakdillard" revision="jd" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="platform_vendor_tmobile_providers_ThemeManager" remote="jakdillard" revision="jd" />
+  <project path="vendor/tmobile/products/themes" name="platform_vendor_tmobile_products_themes" remote="jakdillard" revision="jd" />
+
 </manifest>
