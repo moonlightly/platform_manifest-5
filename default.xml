@@ -367,7 +367,7 @@
   <project path="vendor/tmobile/products/themes" name="platform_vendor_tmobile_products_themes" remote="jakdillard" revision="jd" />
 
   <!-- Superuser -->
-  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="koush" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="koush" revision="master" />
 
 </manifest>
