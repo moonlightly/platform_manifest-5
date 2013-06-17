@@ -369,4 +369,5 @@
   <!-- Superuser -->
   <project name="jakdillard/Superuser" path="external/koush/Superuser" remote="jakdillard" revision="master" />
   <project name="jakdillard/Widgets" path="external/koush/Widgets" remote="jakdillard" revision="master" />
-ja
+
+</manifest>
