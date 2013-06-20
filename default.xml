@@ -7,15 +7,6 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <remote name="rascarlo"
-           fetch="git://github.com/rascarlo/" />
-
-  <remote name="CyanogenMod"
-           fetch="git://github.com/CyanogenMod/" />
-
-  <remote  name="koush"
-           fetch="git://github.com/koush/" /> 
-
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -275,6 +266,7 @@
   <project path="packages/apps/DSPManager" name="platform_packages_apps_DSPManager" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FileManager" name="platform_packages_apps_FileManager" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="jakdillard" revision="jd" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
