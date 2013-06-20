@@ -7,8 +7,11 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
+  <remote name="aokp"
+           fetch="https://github.com/AOKP" />
+
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+           fetch="https://github.com/CyanogenMod" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
@@ -361,11 +364,11 @@
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
 
   <!-- Theme Manager -->
-<project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/permissions" name="platform_vendor_tmobile_permissions" remote="jakdillard" revision="jd" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/products/themes" name="platform_vendor_tmobile_products_themes" remote="jakdillard" revision="jd" />
 
   <!-- Superuser -->
   <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="jakdillard" revision="jd" />
