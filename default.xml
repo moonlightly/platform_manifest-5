@@ -7,10 +7,7 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <remote name="koush"
-           fetch="https://github.com/koush" />
-
-  <default revision="refs/tags/android-4.2.2_r1.2"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -206,7 +203,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="jakdillard" revision="jd" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -282,7 +279,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="master" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="jakdillard" revision="jd" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -342,7 +339,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform_system_extras" remote="jakdillard" revision="jd" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
@@ -355,9 +352,5 @@
   <project path="vendor/jd" name="platform_vendor_jd" remote="jakdillard" revision="jd" /> 
   <project path="vendor/lge" name="platform_vendor_lge" remote="jakdillard" revision="jd" />
   <project path="vendor/qcom" name="platform_vendor_qcom" remote="jakdillard" revision="jd" />
-
-  <!-- Superuser -->
-  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
-  <project path="external/koush/Widgets"   name="Widgets" remote="koush" revision="master" />
 
 </manifest>
