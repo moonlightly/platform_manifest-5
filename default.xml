@@ -319,7 +319,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="ParanoidAndroid" revision="jellybean" />
+  <project path="vendor/tmobile" name="android_vendor_tmobile" remote="ParanoidAndroid" revision="jellybean" />
 
   <!--Add your vendor files here-->
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
