@@ -7,8 +7,8 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
 
-  <remote name="ParanoidAndroid"
-           fetch="git://github.com/ParanoidAndroid/" />
+  <remote name="aokp"
+           fetch="https://github.com/AOKP" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -318,8 +318,12 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="android_vendor_tmobile" remote="ParanoidAndroid" revision="jellybean" />
+  <!-- Theme Manager -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/permissions" name="platform_vendor_tmobile_permissions" remote="jakdillard" revision="jd" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/tmobile/products/themes" name="platform_vendor_tmobile_products_themes" remote="jakdillard" revision="jd" />
 
   <!--Add your vendor files here-->
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="jakdillard" revision="jd" />
