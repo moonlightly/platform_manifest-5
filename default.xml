@@ -26,8 +26,8 @@
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/jd/common" name="platform_device_jd_common" groups="device" remote="jakdillard" revision="jd" />
-  <project path="device/jd/mako" na.me="platform_device_jd_mako" groups="device" remote="jakdillard" revision="jd" />
-  <project path="device/lge/mako" name="platform_device_lge_mako" groups="device" remote="jakdillard" revision="jd" />
+  <project path="device/jd/mako" name="platform_device_jd_mako" groups="device" remote="jakdillard" revision="jd" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
